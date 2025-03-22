@@ -33,14 +33,14 @@ public class Main : AdminModule
 
     public PluginConfig Config = null!;
     public IVipCoreApi VipApi = null!;
-    private PluginCapability<IVipCoreApi> _capability = new("vip:core"); 
+    private PluginCapability<IVipCoreApi> _capability = new("vipcore:core"); 
     private List<CCSPlayerController> _vipGived = new();
     private string _dbConnString = "";
 
     public override void Ready()
     {
         base.Ready();
-        Config = new PluginConfig().ReadOrCreate(AdminUtils.ConfigsDir + "/group_to_vip.json", new PluginConfig());
+        Config = new PluginConfig().ReadOrCreate(AdminUtils.ConfigsDir + "/IksAdmin_Modules/group_to_vip.json", new PluginConfig());
         var builder = new MySqlConnectionStringBuilder();
         builder.Server = Config.Host;
         builder.UserID = Config.User;

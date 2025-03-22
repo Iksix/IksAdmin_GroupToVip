@@ -14,3 +14,4 @@ E:\__iksAdmin\IksAdmin_Modules\IksAdmin_GroupToVip\obj\Debug\net8.0\IksAdmin_Gro
 E:\__iksAdmin\IksAdmin_Modules\IksAdmin_GroupToVip\obj\Debug\net8.0\refint\IksAdmin_GroupToVip.dll
 E:\__iksAdmin\IksAdmin_Modules\IksAdmin_GroupToVip\obj\Debug\net8.0\IksAdmin_GroupToVip.pdb
 E:\__iksAdmin\IksAdmin_Modules\IksAdmin_GroupToVip\obj\Debug\net8.0\ref\IksAdmin_GroupToVip.dll
+E:\__iksAdmin\IksAdmin_Modules\IksAdmin_GroupToVip\obj\Debug\net8.0\IksAdmin_GroupToVip.sourcelink.json
